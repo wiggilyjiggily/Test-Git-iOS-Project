@@ -21,6 +21,7 @@
 		A1AA20D018DB6FD7002B744E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AA20B218DB6FD7002B744E /* UIKit.framework */; };
 		A1AA20D818DB6FD7002B744E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1AA20D618DB6FD7002B744E /* InfoPlist.strings */; };
 		A1AA20DA18DB6FD7002B744E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20D918DB6FD7002B744E /* Git_TestTests.m */; };
+		A1AA215018EA6820002B744E /* TMRWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AA214F18EA6820002B744E /* TMRWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A1AA20D518DB6FD7002B744E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		A1AA20D718DB6FD7002B744E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1AA20D918DB6FD7002B744E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		A1AA214E18EA6820002B744E /* TMRWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMRWTest.h; path = ../TMRWTest.h; sourceTree = "<group>"; };
+		A1AA214F18EA6820002B744E /* TMRWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMRWTest.m; path = ../TMRWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A1AA20C018DB6FD7002B744E /* Main.storyboard */,
 				A1AA20C318DB6FD7002B744E /* TMRWViewController.h */,
 				A1AA20C418DB6FD7002B744E /* TMRWViewController.m */,
+				A1AA214E18EA6820002B744E /* TMRWTest.h */,
+				A1AA214F18EA6820002B744E /* TMRWTest.m */,
 				A1AA20C618DB6FD7002B744E /* Images.xcassets */,
 				A1AA20B518DB6FD7002B744E /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				A1AA20BF18DB6FD7002B744E /* TMRWAppDelegate.m in Sources */,
 				A1AA20C518DB6FD7002B744E /* TMRWViewController.m in Sources */,
 				A1AA20BB18DB6FD7002B744E /* main.m in Sources */,
+				A1AA215018EA6820002B744E /* TMRWTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
